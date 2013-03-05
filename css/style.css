@@ -1,0 +1,76 @@
+body{
+    font-family: 'Press Start 2P', sans-serif;
+    background: #2F343A;
+}
+.main-container{
+    width: 1024px;
+    margin: 30px auto;
+}
+.logo{
+    text-align: center;
+}
+.logo h1{
+    color:white;
+    text-shadow: 6px 1px 1px #c33d36; 
+}
+.newsletter .email {
+    font-family: 'Press Start 2P', sans-serif;
+    width: 80%;
+    padding: 13px 10px 12px;
+    color: #9a9a9a;
+    border: 2px solid #f7f7f7;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    padding-right: 130px;
+    -moz-box-shadow: inset 0 2px 2px 2px #f7f7f7;
+    -o-box-shadow: inset 0 2px 2px 2px #f7f7f7;
+    -webkit-box-shadow: inset 0 2px 2px 2px #f7f7f7;
+    box-shadow: inset 0 2px 2px 2px #f7f7f7;
+}
+.newsletter button {
+    font-family: 'Press Start 2P', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: -51px;
+    left: -65px;
+    float: right;
+    width: 230px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 10px 11px;
+    background-color: #ec5d59;
+    background-image: -webkit-linear-gradient(top,#ec5d59 0,#c33d36 100%);
+    background-image: -moz-linear-gradient(top,#ec5d59 0,#c33d36 100%);
+    background-image: -ms-linear-gradient(top,#ec5d59 0,#c33d36 100%);
+    background-image: -o-linear-gradient(top,#ec5d59 0,#c33d36 100%);
+    background-image: linear-gradient(top,#ec5d59 0,#c33d36 100%);
+    border: none;
+    border-bottom: 2px solid #94302a;
+    text-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 2px 1px 2px #444;
+}
+.newsletter button:hover{
+    opacity: 0.9;
+}
+.newsletter .note {
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+    color:white;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    color: #999;
+    margin-right: 60px;
+    text-align: center;
+    width: 99%;
+}
+.footer a{
+    color:#c33d36;
+}
