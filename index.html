@@ -8,6 +8,25 @@
             WebFontConfig = {
                 google: { families: [ 'Press+Start+2P::latin'] }
             };</script>
+        <!-- Start of Woopra Code -->
+        <script type="text/javascript">
+            function woopraReady(tracker) {
+                tracker.setDomain('meeneeme.me');
+                tracker.setIdleTimeout(1800000);
+                tracker.track();
+                return false;
+            }
+            (function() {
+                var wsc = document.createElement('script');
+                wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+                wsc.type = 'text/javascript';
+                wsc.async = true;
+                var ssc = document.getElementsByTagName('script')[0];
+                ssc.parentNode.insertBefore(wsc, ssc);
+            })();
+        </script>
+        <!-- End of Woopra Code -->
+
 
     </head>
     <body>
@@ -16,14 +35,14 @@
                 <img src="images/logo.png"/>
                 <h1>meeneeme.me</h1>
             </div>    
-            
-                <form action="http://meeneeme.us6.list-manage.com/subscribe/post" method="POST" class="newsletter" id="subscribe">
-                    <input type="hidden" name="u" value="f601f8de40">
-                    <input type="hidden" name="id" value="f4ec1b5ad8">
-                    <input type="email" id="email" name="MERGE0" class="email" placeholder="Enter your email..."> <input type="submit" class="button" name="submit" value="Notify Me">
-                    <p class="note">meeneemee hates spammers...</p>
-                </form>
-            
+
+            <form action="http://meeneeme.us6.list-manage.com/subscribe/post" method="POST" class="newsletter" id="subscribe">
+                <input type="hidden" name="u" value="f601f8de40">
+                <input type="hidden" name="id" value="f4ec1b5ad8">
+                <input type="email" id="email" name="MERGE0" class="email" placeholder="Enter your email..."> <input type="submit" class="button" name="submit" value="Notify Me">
+                <p class="note">meeneemee hates spammers...</p>
+            </form>
+
         </div>
         <div class="footer">
             <p>Winner of Startup Weekend Byblos <a href="https://twitter.com/search?q=swbyblos&src=typd" target="_BLANK">#SWByblos</a> 2013</p>
