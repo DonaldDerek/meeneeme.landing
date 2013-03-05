@@ -9,6 +9,9 @@ body{
 .logo{
     text-align: center;
 }
+.logo img{
+    height:300px;
+}
 .logo h1{
     color:white;
     text-shadow: 6px 1px 1px #c33d36; 
